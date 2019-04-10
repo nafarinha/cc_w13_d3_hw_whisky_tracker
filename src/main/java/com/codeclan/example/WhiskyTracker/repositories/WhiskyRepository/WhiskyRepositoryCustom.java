@@ -8,4 +8,6 @@ public interface WhiskyRepositoryCustom {
 
     //TODO: put the method prototype for custom query
     List<Whisky> findWhiskiesByAgeAndDistilleryNamed(String name, int age);
+
+    List<Whisky> findWhiskiesByDistilleryRegionNamed(String name);
 }

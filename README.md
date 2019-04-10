@@ -27,7 +27,7 @@ Given the basic code for classes and JpaRepositories for a whisky tracker, your 
   * Get all the whisky from a particular distillery that's a specific age :ballot_box_with_check:
 
 ###  Extensions
-  * Get all the whisky from a particular region 
+  * Get all the whisky from a particular region :ballot_box_with_check:
   * Get distilleries that have whiskies that are 12 years old 
 
 
