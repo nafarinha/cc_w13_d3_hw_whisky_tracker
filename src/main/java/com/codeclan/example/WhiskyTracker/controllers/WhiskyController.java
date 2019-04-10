@@ -17,7 +17,6 @@ public class WhiskyController {
     @Autowired
     WhiskyRepository whiskyRepository;
 
-    //CREATES A LOOP OF THE FIRST RECORD FOUND
     @GetMapping(value = "/year/{year}")
     public List<Whisky> searchForWhiskiesByYear (@PathVariable int year){
         return whiskyRepository.findWiskiesByYear(year);

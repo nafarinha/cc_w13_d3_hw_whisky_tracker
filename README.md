@@ -22,10 +22,10 @@ Given the basic code for classes and JpaRepositories for a whisky tracker, your 
 **Custom Queries + REST** Write each of the following queries and connect them to an appropriate controller:
 
 ### MVP
-  * Get all the whiskies for a particular year
-  * Get all the distilleries for a particular region
+  * Get all the whiskies for a particular year :ballot_box_with_check:
+  * Get all the distilleries for a particular region :ballot_box_with_check:
   * Get all the whisky from a particular distillery that's a specific age
-  
+
 ###  Extensions
   * Get all the whisky from a particular region 
   * Get distilleries that have whiskies that are 12 years old 

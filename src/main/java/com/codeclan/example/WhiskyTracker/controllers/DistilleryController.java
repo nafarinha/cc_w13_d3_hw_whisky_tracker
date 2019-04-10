@@ -17,7 +17,6 @@ public class DistilleryController {
     @Autowired
     DistilleryRepository distilleryRepository;
 
-    //CREATES A LOOP OF THE FIRST RECORD FOUND
     @GetMapping(value = "/region/{region}")
         public List<Distillery> searchDistilleriesByRegion (@PathVariable String region) {
         return distilleryRepository.findDistilleriesByRegion(region);
