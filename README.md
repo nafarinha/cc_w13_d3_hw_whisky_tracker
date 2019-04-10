@@ -24,7 +24,7 @@ Given the basic code for classes and JpaRepositories for a whisky tracker, your 
 ### MVP
   * Get all the whiskies for a particular year :ballot_box_with_check:
   * Get all the distilleries for a particular region :ballot_box_with_check:
-  * Get all the whisky from a particular distillery that's a specific age
+  * Get all the whisky from a particular distillery that's a specific age :ballot_box_with_check:
 
 ###  Extensions
   * Get all the whisky from a particular region 
