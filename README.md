@@ -28,7 +28,7 @@ Given the basic code for classes and JpaRepositories for a whisky tracker, your 
 
 ###  Extensions
   * Get all the whisky from a particular region :ballot_box_with_check:
-  * Get distilleries that have whiskies that are 12 years old 
+  * Get distilleries that have whiskies that are 12 years old :ballot_box_with_check:
 
 
 

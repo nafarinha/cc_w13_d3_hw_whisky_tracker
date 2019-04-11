@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface WhiskyRepositoryCustom {
 
-    //TODO: put the method prototype for custom query
+    //method prototypes for custom queries
     List<Whisky> findWhiskiesByAgeAndDistilleryNamed(String name, int age);
 
     List<Whisky> findWhiskiesByDistilleryRegionNamed(String name);

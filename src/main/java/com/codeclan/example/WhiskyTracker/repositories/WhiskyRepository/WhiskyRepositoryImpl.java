@@ -16,7 +16,7 @@ import java.util.List;
 
 public class WhiskyRepositoryImpl implements WhiskyRepositoryCustom {
 
-    //TODO: Put full method for custom query
+    //full methods for custom queries
 
     @Autowired
     EntityManager entityManager;
