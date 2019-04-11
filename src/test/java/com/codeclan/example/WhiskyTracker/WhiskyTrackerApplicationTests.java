@@ -29,8 +29,8 @@ public class WhiskyTrackerApplicationTests {
 	}
 
 	@Test
-	public void canFindWiskiesByYear() {
-		List<Whisky> found = whiskyRepository.findWiskiesByYear(2018);
+	public void canFindWhiskiesByYear() {
+		List<Whisky> found = whiskyRepository.findWhiskiesByYear(2018);
 		assertEquals(2, found.size());
 	}
 

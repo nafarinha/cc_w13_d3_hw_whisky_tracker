@@ -10,7 +10,7 @@ import java.util.List;
 @RepositoryRestResource(excerptProjection = EmbedDistillery.class)
 public interface WhiskyRepository extends JpaRepository<Whisky, Long>, WhiskyRepositoryCustom {
 
-    List<Whisky> findWiskiesByYear(int year);
+    List<Whisky> findWhiskiesByYear(int year);
 
     //full methods here from Impl
     List<Whisky> findWhiskiesByAgeAndDistilleryNamed(String name, int age);
